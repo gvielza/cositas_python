@@ -3,7 +3,7 @@ import webbrowser
 import pyautogui as robot
 import time
 import pyperclip
-
+#731
 
 url='https://www.bing.com/rewards/dashboard'
 edge_path = 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe %s'
