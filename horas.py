@@ -1,7 +1,18 @@
 # App para recoger h trabajadas
 #importar libreria sqlite3.
+from os.path import isfile
 import sqlite3
-#conectar a la base de datos si no existe la crea
-#sqlite3.connect("base_datos")
+import os
+#conectar a la base de datos si no existe la creacion
+sqlite3.connect("bd/base_datos.db")
+ruta = "bd/base_datos.db"
 
-print("kddk")
+
+def existe_archivo(ruta):
+  if os.path.isfile(ruta):
+    print("existe el archivo")
+  else:
+    print("no existe el archivo")
+
+
+#existe_archivo(ruta)
