@@ -15,4 +15,5 @@ def existe_archivo(ruta):
     print("no existe el archivo")
 
 
-#existe_archivo(ruta)
+existe_archivo(ruta)
+#ahora creo
