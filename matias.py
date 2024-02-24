@@ -1,0 +1,29 @@
+import csv
+
+def obtener_email_por_nombre(ruta_archivo_csv, nombre):
+    try:
+        with open(ruta_archivo_csv, mode='r') as archivo_csv:
+            lector_csv = csv.DictReader(archivo_csv)
+            for linea in lector_csv:
+                if linea['nombre'] == nombre:
+                    email = linea['mail']
+                    if '@' in email:
+                        return email
+                    else:
+                        print("El correo electrónico no es válido.")
+                        return None
+            print("El nombre no fue encontrado en el archivo CSV.")
+            return None
+    except FileNotFoundError:
+        print("El archivo CSV no fue encontrado.")
+        return None
+    except Exception as e:
+        print(f"Error al procesar el archivo CSV: {e}")
+        return None
+
+# Ejemplo de uso
+ruta = 'datos.csv'
+nombre_buscar = 'Juan'
+email_obtenido = obtener_email_por_nombre(ruta, nombre_buscar)
+if email_obtenido:
+    print(f"Correo electrónico de {nombre_buscar}: {email_obtenido}")
