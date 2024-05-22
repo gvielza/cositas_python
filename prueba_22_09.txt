@@ -1,0 +1,54 @@
+Tema 1
+
+1- Escribir una funcion que recibe la ruta de un archivo .csv y un nombre con los 
+siguientes datos "nombre,celular". La funcion devuelve el numero en formato int
+el celular vinculado o 0 en caso de error.
+
+2- Escribir una funcion que recibe por parametro una lista de tuplas (nombre, 
+celular) y escribe un archivo .csv de la sig. forma: "nombre,celular".
+
+3- Escribir un programa que pida al usuario un nombre y un numero celular para 
+guardar estos datos en un archivo con las funciones de los ejercicios anteriores.
+
+
+
+Tema 2
+
+1- Escribir una funcion que recibe la ruta de un archivo .csv y un nombre con los 
+siguientes datos "nombre,mail". La funcion devuelve el mail vinculado con el 
+nombre si el mail es valido. El mail se coincidera valido solo si tiene un 
+caracter @.
+
+2- Escribir una funcion que recibe por parametro una lista de tuplas (nombre, 
+celular) y escribe un archivo .csv de la sig. forma: "nombre,mail".
+
+3- Escribir un programa que pida al usuario un nombre y un mail para guardar 
+estos datos en un archivo con las funciones de los ejercicios anteriores.
+
+
+
+Tema 3
+
+1- Escribir una funcion que recibe la ruta y un DNI de un archivo .csv con los 
+siguientes datos "DNI,nombre". La funcion devuelve el nombre vinculado con el 
+nombre o None en caso de error.
+
+2- Escribir una funcion que recibe por parametro una lista de tuplas (DNI, 
+nombre) y escribe un archivo .csv de la sig. forma: "DNI, nombre".
+
+3- Escribir un programa que pida al usuario un DNI y un nombre para guardar 
+estos datos en un archivo con las funciones de los ejercicios anteriores.
+
+
+
+Tema 4
+
+1- Escribir una funcion que recibe la ruta y un DNI de un archivo .csv con los 
+siguientes datos "DNI,mail". La funcion devuelve el mail vinculado con el DNI
+si el mail es valido. El mail es valido solo si tiene un caracter @.
+
+2- Escribir una funcion que recibe por parametro una lista de tuplas (DNI, mail) 
+y escribe un archivo .csv de la sig. forma: "DNI,mail".
+
+3- Escribir un programa que pida al usuario un DNI y un mail para guardar estos 
+datos en un archivo con las funciones de los ejercicios anteriores.
